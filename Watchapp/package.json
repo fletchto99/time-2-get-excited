@@ -1,0 +1,49 @@
+{
+  "version": "1.5.0",
+  "author": "fletch_to_99",
+  "private": true,
+  "dependencies": {},
+  "keywords": [
+    "pebble-app"
+  ],
+  "pebble": {
+    "sdkVersion": "3",
+    "resources": {
+      "media": []
+    },
+    "uuid": "583d9336-6ea4-4e0f-b8d5-1ac9b516c10e",
+    "messageKeys": {
+      "KIEZELPAY_INTERNET_FAIL": 119526520,
+      "KIEZELPAY_READY": 119526512,
+      "KIEZELPAY_APP_ID": 119526514,
+      "KIEZELPAY_PURCHASE_CODE": 119526519,
+      "KIEZELPAY_RANDOM": 119526522,
+      "MONEY": 1,
+      "BACKERS": 0,
+      "KIEZELPAY_PURCHASE_STATUS": 119526521,
+      "KIEZELPAY_STATUS_CHECK": 119526513,
+      "KIEZELPAY_STATUS_CHECKSUM": 119526517,
+      "KIEZELPAY_STATUS_VALIDITY_PERIOD": 119526523,
+      "KIEZELPAY_STATUS_TRIAL_DURATION": 119526518,
+      "TIME_REMAINING": 2,
+      "KIEZELPAY_STATUS_RESULT": 119526516,
+      "KIEZELPAY_DEVICE_TOKEN": 119526515
+    },
+    "enableMultiJS": false,
+    "displayName": "Time 2 Get Excited",
+    "watchapp": {
+      "onlyShownOnCommunication": false,
+      "hiddenApp": false,
+      "watchface": true
+    },
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk"
+    ],
+    "capabilities": [
+      "configurable"
+    ]
+  },
+  "name": "Time 2 Get Excited"
+}
